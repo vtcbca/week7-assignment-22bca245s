@@ -1,10 +1,10 @@
 import csv
-with open('E:\\product_selling.csv','w',newline='') as file:
+with open('E:\\22bca245\\python\\product_selling.csv','w',newline='') as file:
     csv_w=csv.writer(file)
     columns=['Prod_No', 'Prod_Name',' Jan','Feb','Mar','Apr','May','Jun']
     csv_w.writerow(columns)
     
-with open('E:\\product_selling.csv','a',newline='') as f :
+with open('E:\\22bca245\\python\\product_selling.csv','a',newline='') as f :
     csv_w=csv.writer(f)
     records=[]
     for i in range(6):
