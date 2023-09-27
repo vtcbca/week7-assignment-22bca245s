@@ -7,7 +7,7 @@ with open('E:\\22bca245\\python\\product_selling.csv','w',newline='') as file:
 with open('E:\\22bca245\\python\\product_selling.csv','a',newline='') as f :
     csv_w=csv.writer(f)
     records=[]
-    for i in range(6):
+    for i in range(12):
         Prod_No=int(input("Enter product number:"))
         Prod_Name=input("Enter Product Name:")
         Jan=int(input("Enter product sales in January:"))
